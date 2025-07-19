@@ -1,0 +1,28 @@
+site_name: Estrutura base
+copyright: Copyright &copy; 2025 Wenderson da Silva
+
+# Add repository in header
+repo_url: https://github.com/squidfunk/mkdocs-material
+repo_name: squidfunk/mkdocs-material
+
+theme:
+  name: material
+  language: pt-BR
+  features:
+    - navigation.footer
+    - navigation.indexes
+    - content.code.copy
+  icon:
+    repo: fontawesome/brands/git-alt 
+
+nav: 
+  - Início: index.md
+  - Tutoriais:
+    - 'tutoriais/index.md'
+    - Tutorial 01: 'tutoriais/tutorial01.md'
+  - Sobre: about.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/devwenderson 
